@@ -6,15 +6,15 @@ public class GirlFriend {
    private int age;
    private String gender;
    //name的set,给成员赋值
-    public void setName(String n){
-        name = n;
+    public void setName(String name){
+       this.name = name;
     }
     public String getName(){
         return name;
     }
-    public void setAge(int n){
-        if(n >=18 && n <=28){
-            age = n;
+    public void setAge(int age){
+        if(age >=18 && age <=28){
+            this.age = age;
         }else{
             System.out.println("非法数据");
         }
@@ -22,8 +22,8 @@ public class GirlFriend {
     public int getAge(){
         return age;
     }
-    public void setGender(String n){
-        gender = n;
+    public void setGender(String gender){
+        this.gender = gender;
     }
     public String getGender(){
         return gender;
