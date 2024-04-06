@@ -6,8 +6,10 @@ public class StringDemo7 {
         //要求：把金额数字转换成发票中的中文金额格式————X佰X拾X万X仟X佰X拾X元
         //如：2135变成：零佰零拾零万贰仟壹佰叁拾伍元
         Scanner sc = new Scanner(System.in);
+        System.out.println("请输入金额:");
         int money = sc.nextInt();
         String str = moneyTurn(money);
+        System.out.println(str);
     }
     public static String moneyTurn(int money){
         String aStr = "佰拾万仟佰拾元";
@@ -51,11 +53,16 @@ public class StringDemo7 {
         }
         System.out.println(cStr);
         String dStr = "";
-        for(int i = 7;i > 0; i--){
-            dStr = dStr + aStr.charAt(i);
-
-
+        for(int i = 0; i < 7 - bStr.length(); i++){
+            dStr = dStr + "零";
         }
-        return "";
+        //dStr 代表的是输入的钱数转成中文并用中文补位
+        dStr = dStr + cStr;
+        String eStr = "";
+        for(int i = 0; i < 7; i++){
+            eStr = eStr + dStr.charAt(i);
+            eStr = eStr + aStr.charAt(i);
+        }
+        return eStr;
     }
 }
