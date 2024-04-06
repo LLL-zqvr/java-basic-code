@@ -1,3 +1,5 @@
+package com.itheima.stringdemo;
+
 public class StringDemo1 {
     public static void main(String[] args) {
         //1.使用直接赋值的方法

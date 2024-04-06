@@ -1,4 +1,4 @@
-import java.util.Scanner;
+package com.itheima.stringdemo;
 
 public class StringDemo6 {
     public static void main(String[] args) {

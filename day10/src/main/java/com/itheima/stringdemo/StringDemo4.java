@@ -1,3 +1,5 @@
+package com.itheima.stringdemo;
+
 import java.util.Scanner;
 
 public class StringDemo4 {
