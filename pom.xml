@@ -21,6 +21,7 @@
         <module>day15</module>
         <module>oop-interface</module>
         <module>oop-extends</module>
+        <module>day11</module>
     </modules>
 
     <properties>
