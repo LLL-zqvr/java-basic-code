@@ -1,4 +1,4 @@
-package com.itheima.a02oopextendsdemo2;
+package com.itheima.a02oopextendsdemo3;
 
 public class Person {
     public void eat(){
