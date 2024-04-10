@@ -17,11 +17,13 @@
         <module>day07</module>
         <module>day09</module>
         <module>day10</module>
+        <module>day11</module>
         <module>day13</module>
         <module>day15</module>
         <module>oop-interface</module>
         <module>oop-extends</module>
         <module>day11</module>
+        <module>day111</module>
     </modules>
 
     <properties>

@@ -10,10 +10,6 @@
     </parent>
 
     <artifactId>day03</artifactId>
-    <packaging>pom</packaging>
-    <modules>
-        <module>day04</module>
-    </modules>
 
     <properties>
         <maven.compiler.source>17</maven.compiler.source>
