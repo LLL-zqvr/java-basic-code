@@ -24,6 +24,7 @@
         <module>oop-extends</module>
         <module>day11</module>
         <module>day111</module>
+        <module>arithmetic</module>
     </modules>
 
     <properties>

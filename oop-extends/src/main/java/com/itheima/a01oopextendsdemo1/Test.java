@@ -12,7 +12,7 @@ public class Test {
         //创建泰迪的对象
         Husky h = new Husky();
         h.eat();
-        h.breakhome();
+        h.breakHome();
         h.drink();
         h.lookHome();
 
