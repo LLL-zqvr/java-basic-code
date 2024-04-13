@@ -14,6 +14,7 @@ public class Test {
         h.eat();
         h.breakHome();
         h.drink();
+        h.drink();
         h.lookHome();
 
     }
