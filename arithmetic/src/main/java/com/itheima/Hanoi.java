@@ -1,6 +1,7 @@
 package com.itheima;
 
 public class Hanoi {
+    //汉诺塔问题
     public static void hanoi(Integer n, String a,String b,String c){
         if(n == 1){
             System.out.println(a + "移动到" + c);
