@@ -1,3 +1,5 @@
+package com.itheima;
+
 public class Hanoi {
     public static void hanoi(Integer n, String a,String b,String c){
         if(n == 1){
