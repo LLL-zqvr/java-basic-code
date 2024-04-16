@@ -23,7 +23,6 @@
         <module>oop-interface</module>
         <module>oop-extends</module>
         <module>day11</module>
-        <module>arithmetic</module>
         <module>day14</module>
     </modules>
 
