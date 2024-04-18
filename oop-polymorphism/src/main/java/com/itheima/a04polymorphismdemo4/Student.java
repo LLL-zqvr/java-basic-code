@@ -1,8 +1,8 @@
-package com.itheima.a01polymorphismdemo1;
+package com.itheima.a04polymorphismdemo4;
 
 public class Student extends Person{
-    public void show(){
-        System.out.println("学生的信息为:" + getName() + "," + getAge());
+    public void study(){
+        System.out.println("学生在学习");
     }
 
     public Student() {
