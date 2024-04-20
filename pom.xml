@@ -24,6 +24,9 @@
         <module>oop-extends</module>
         <module>day11</module>
         <module>day14</module>
+        <module>oop-final</module>
+        <module>oop-abstracts</module>
+        <module>Test1</module>
     </modules>
 
     <properties>
