@@ -8,26 +8,7 @@
     <artifactId>basic-code</artifactId>
     <version>1.0-SNAPSHOT</version>
     <packaging>pom</packaging>
-    <modules>
-        <module>day02</module>
-        <module>day03</module>
-        <module>day04</module>
-        <module>day05</module>
-        <module>day06</module>
-        <module>day07</module>
-        <module>day09</module>
-        <module>day10</module>
-        <module>day11</module>
-        <module>day13</module>
-        <module>day15</module>
-        <module>oop-interface</module>
-        <module>oop-extends</module>
-        <module>day11</module>
-        <module>day14</module>
-        <module>oop-final</module>
-        <module>oop-abstracts</module>
-        <module>Test1</module>
-    </modules>
+    
 
     <properties>
         <maven.compiler.source>17</maven.compiler.source>
