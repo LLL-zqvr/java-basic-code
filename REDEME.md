@@ -6,7 +6,7 @@
 
 旨在练习一些基本操作或者基本语法。
 
-### Development Enviroments
+### Development Environments
 
 - ###### Idea
 
